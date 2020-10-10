@@ -6,8 +6,8 @@ echo "执行命令：cd ./_book\n"
 cd ./_book
 
 # 初始化一个仓库，仅仅是做了一个初始化的操作，项目里的文件还没有被跟踪
-echo "执行命令：git init\n"
-git init
+# echo "执行命令：git init\n"
+# git init
 
 # 保存所有的修改
 echo "执行命令：git add -A"
