@@ -1,0 +1,680 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Vuex学习 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Vue实战技巧.html" />
+    
+    
+    <link rel="prev" href="Vue学习.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    读书笔记
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="你不知道的 Javascript（上卷）.html">
+            
+                <a href="你不知道的 Javascript（上卷）.html">
+            
+                    
+                    你不知道的 Javascript（上卷）
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="第一部分 作用域和闭包.html">
+            
+                <a href="第一部分 作用域和闭包.html">
+            
+                    
+                    第一部分 作用域和闭包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="第二部分 this和对象原型.html">
+            
+                <a href="第二部分 this和对象原型.html">
+            
+                    
+                    第二部分 this和对象原型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="对象.html">
+            
+                <a href="对象.html">
+            
+                    
+                    第三部分 对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="混合对象类.html">
+            
+                <a href="混合对象类.html">
+            
+                    
+                    第四部分 混合对象“类”
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="原型.html">
+            
+                <a href="原型.html">
+            
+                    
+                    第五部分 原型
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Vue相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="Vue学习.html">
+            
+                <a href="Vue学习.html">
+            
+                    
+                    Vue学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="Vuex学习.html">
+            
+                <a href="Vuex学习.html">
+            
+                    
+                    Vuex学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Vue实战技巧.html">
+            
+                <a href="Vue实战技巧.html">
+            
+                    
+                    Vue实战技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Vue动画实战.html">
+            
+                <a href="Vue动画实战.html">
+            
+                    
+                    Vue动画实战
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    CSS相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="rem 移动端适配.html">
+            
+                <a href="rem 移动端适配.html">
+            
+                    
+                    rem 移动端适配
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="img 默认间隙的解决方案.html">
+            
+                <a href="img 默认间隙的解决方案.html">
+            
+                    
+                    img 默认间隙的解决方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="html换行产生空白符的坑及解决办法.html">
+            
+                <a href="html换行产生空白符的坑及解决办法.html">
+            
+                    
+                    html换行产生空白符的坑及解决办法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="CSS3 中的 linear-gradient 在 picker area 组件中的应用.html">
+            
+                <a href="CSS3 中的 linear-gradient 在 picker area 组件中的应用.html">
+            
+                    
+                    CSS3 中的 linear-gradient 在 picker/area 组件中的应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    App相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="原生App与H5交互.html">
+            
+                <a href="原生App与H5交互.html">
+            
+                    
+                    原生App与H5交互
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="H5 拉起第三方App的方案.html">
+            
+                <a href="H5 拉起第三方App的方案.html">
+            
+                    
+                    H5拉起第三方App的方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Vuex学习</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="vuex-&#x5B66;&#x4E60;">Vuex &#x5B66;&#x4E60;</h3>
+<h3 id="vuex-&#x662F;&#x4EC0;&#x4E48;&#xFF1F;">Vuex &#x662F;&#x4EC0;&#x4E48;&#xFF1F;</h3>
+<p>&#x4E00;&#x4E2A;<code>Vuex</code>&#x5E94;&#x7528;&#x7684;&#x6838;&#x5FC3;&#x5C31;&#x662F;<code>store</code>&#xFF08;&#x4ED3;&#x5E93;&#xFF09;&#xFF0C;&#x5305;&#x542B;&#x7740;&#x4F60;&#x7684;&#x5E94;&#x7528;&#x4E2D;&#x5927;&#x90E8;&#x5206;&#x7684;&#x72B6;&#x6001; (<code>state</code>)&#x3002;<code>Vuex</code> &#x548C;&#x5355;&#x7EAF;&#x7684;&#x5168;&#x5C40;&#x5BF9;&#x8C61;&#x6709;&#x4EE5;&#x4E0B;&#x4E24;&#x70B9;&#x4E0D;&#x540C;&#xFF1A;</p>
+<ul>
+<li><p><code>Vuex</code> &#x7684;&#x72B6;&#x6001;&#x5B58;&#x50A8;&#x662F;<strong>&#x54CD;&#x5E94;&#x5F0F;</strong>&#x7684;&#x3002;&#x5F53;<code>Vue</code> &#x7EC4;&#x4EF6;&#x4ECE; <code>store</code> &#x4E2D;&#x8BFB;&#x53D6;&#x72B6;&#x6001;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x82E5;<code>store</code> &#x4E2D;&#x7684;&#x72B6;&#x6001;&#x53D1;&#x751F;&#x53D8;&#x5316;&#xFF0C;&#x90A3;&#x4E48;&#x76F8;&#x5E94;&#x7684;&#x7EC4;&#x4EF6;&#x4E5F;&#x4F1A;&#x76F8;&#x5E94;&#x5730;&#x5F97;&#x5230;&#x9AD8;&#x6548;&#x66F4;&#x65B0;&#x3002;&#xFF08;&#x548C;<code>Vue</code>&#x7EC4;&#x4EF6;&#x4E2D;&#x7684;<code>data</code>&#x6570;&#x636E;&#x6709;&#x7740;&#x76F8;&#x540C;&#x7684;<strong>&#x54CD;&#x5E94;&#x5F0F;</strong>&#x529F;&#x80FD;&#xFF09;</p>
+</li>
+<li><p><strong>&#x4E0D;&#x80FD;&#x76F4;&#x63A5;&#x6539;&#x53D8; <code>store</code> &#x4E2D;&#x7684;&#x72B6;&#x6001;</strong>&#x3002;&#x6539;&#x53D8; store &#x4E2D;&#x7684;&#x72B6;&#x6001;&#x7684;&#x552F;&#x4E00;&#x9014;&#x5F84;&#x5C31;&#x662F;<strong>&#x663E;&#x5F0F;&#x5730;&#x63D0;&#x4EA4; (<code>commit</code>) <code>mutation</code></strong>&#x3002;&#x8FD9;&#x6837;&#x4F7F;&#x5F97;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x65B9;&#x4FBF;&#x5730;&#x8DDF;&#x8E2A;&#x6BCF;&#x4E00;&#x4E2A;&#x72B6;&#x6001;&#x7684;&#x53D8;&#x5316;&#xFF0C;&#x4ECE;&#x800C;&#x8BA9;&#x6211;&#x4EEC;&#x80FD;&#x591F;&#x5B9E;&#x73B0;&#x4E00;&#x4E9B;&#x5DE5;&#x5177;&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x66F4;&#x597D;&#x5730;&#x4E86;&#x89E3;&#x6211;&#x4EEC;&#x7684;&#x5E94;&#x7528;&#x3002;</p>
+<h3 id="&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x4E0E;&#x5355;&#x9879;&#x6570;&#x636E;&#x6D41;">&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x4E0E;&#x5355;&#x9879;&#x6570;&#x636E;&#x6D41;</h3>
+<h4 id="&#x4ECE;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;-vue-&#x8BA1;&#x6570;&#x5E94;&#x7528;&#x5F00;&#x59CB;&#xFF1A;">&#x4ECE;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684; Vue &#x8BA1;&#x6570;&#x5E94;&#x7528;&#x5F00;&#x59CB;&#xFF1A;</h4>
+<pre><code class="lang-js"><span class="hljs-keyword">new</span> Vue({
+<span class="hljs-comment">// state</span>
+data () {
+  <span class="hljs-keyword">return</span> {
+    count: <span class="hljs-number">0</span>
+  }
+},
+<span class="hljs-comment">// view</span>
+template: <span class="hljs-string">`
+  &lt;div&gt;&lt;/div&gt;
+`</span>,
+<span class="hljs-comment">// actions</span>
+methods: {
+  increment () {
+    <span class="hljs-keyword">this</span>.count++
+  }
+}
+})
+</code></pre>
+<p>&#x8FD9;&#x4E2A;&#x72B6;&#x6001;&#x81EA;&#x7BA1;&#x7406;&#x5E94;&#x7528;&#x5305;&#x542B;&#x4EE5;&#x4E0B;&#x51E0;&#x4E2A;&#x90E8;&#x5206;&#xFF1A;</p>
+</li>
+<li>state&#xFF0C;&#x9A71;&#x52A8;&#x5E94;&#x7528;&#x7684;&#x6570;&#x636E;&#x6E90;&#xFF1B;</li>
+<li>view&#xFF0C;&#x4EE5;&#x58F0;&#x660E;&#x65B9;&#x5F0F;&#x5C06; state &#x6620;&#x5C04;&#x5230;&#x89C6;&#x56FE;&#xFF1B;</li>
+<li>actions&#xFF0C;&#x54CD;&#x5E94;&#x5728; view &#x4E0A;&#x7684;&#x7528;&#x6237;&#x8F93;&#x5165;&#x5BFC;&#x81F4;&#x7684;&#x72B6;&#x6001;&#x53D8;&#x5316;&#x3002;<h4 id="&#x5355;&#x5411;&#x6570;&#x636E;&#x6D41;&#x6307;&#x53EA;&#x80FD;&#x4ECE;&#x4E00;&#x4E2A;&#x65B9;&#x5411;&#x6765;&#x4FEE;&#x6539;&#x72B6;&#x6001;&#x3002;">&#x5355;&#x5411;&#x6570;&#x636E;&#x6D41;&#x6307;&#x53EA;&#x80FD;&#x4ECE;&#x4E00;&#x4E2A;&#x65B9;&#x5411;&#x6765;&#x4FEE;&#x6539;&#x72B6;&#x6001;&#x3002;</h4>
+<img width="640" alt="Vuex" src="https://user-images.githubusercontent.com/63552419/95696681-ac34a800-0c6e-11eb-84bb-f82c5371aa76.png"></li>
+</ul>
+<p>&#x4F46;&#x662F;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x7684;&#x5E94;&#x7528;&#x9047;&#x5230;&#x591A;&#x4E2A;&#x7EC4;&#x4EF6;&#x5171;&#x4EAB;&#x72B6;&#x6001;&#x65F6;&#xFF0C;&#x5355;&#x5411;&#x6570;&#x636E;&#x6D41;&#x7684;&#x7B80;&#x6D01;&#x6027;&#x5F88;&#x5BB9;&#x6613;&#x88AB;&#x7834;&#x574F;&#xFF1A;</p>
+<ul>
+<li>&#x591A;&#x4E2A;&#x89C6;&#x56FE;&#x4F9D;&#x8D56;&#x4E8E;&#x540C;&#x4E00;&#x72B6;&#x6001;&#x3002;</li>
+<li>&#x6765;&#x81EA;&#x4E0D;&#x540C;&#x89C6;&#x56FE;&#x7684;&#x884C;&#x4E3A;&#x9700;&#x8981;&#x53D8;&#x66F4;&#x540C;&#x4E00;&#x72B6;&#x6001;&#x3002;</li>
+</ul>
+<p>&#x591A;&#x4E2A;&#x7EC4;&#x4EF6;&#x4F1A;&#x5171;&#x4EAB;&#x72B6;&#x6001;&#x65F6;&#xFF0C;&#x7EC4;&#x4EF6;&#x95F4;&#xFF08;&#x5144;&#x5F1F;&#x7EC4;&#x4EF6;&#x3001;&#x7236;&#x5B50;&#x7EC4;&#x4EF6;&#x3001;&#x65E0;&#x5173;&#x7CFB;&#x7684;&#x7EC4;&#x4EF6;&#xFF09;&#x901A;&#x4FE1;&#x53D8;&#x7684;&#x4E0D;&#x5BB9;&#x6613;&#x3002;&#x6211;&#x4EEC;&#x628A;<strong>&#x5171;&#x4EAB;&#x72B6;&#x6001;&#x62BD;&#x53D6;&#x51FA;&#x6765;</strong>&#xFF0C;&#x7528;<strong>&#x5355;&#x5411;&#x6570;&#x636E;&#x6D41;</strong>&#x7684;&#x65B9;&#x5F0F;&#x4F1A;&#x53D8;&#x5F97;&#x66F4;&#x52A0;&#x65B9;&#x4FBF;&#x3002;</p>
+<h3 id="vuex-&#x96C6;&#x4E2D;&#x5F0F;&#x7684;&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x6A21;&#x5F0F;">Vuex &#x96C6;&#x4E2D;&#x5F0F;&#x7684;&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x6A21;&#x5F0F;</h3>
+<h4 id="vuex&#x89C4;&#x5B9A;&#x4E86;&#x4E00;&#x4E9B;&#x9700;&#x8981;&#x9075;&#x5B88;&#x7684;&#x89C4;&#x5219;&#xFF1A;"><code>Vuex</code>&#x89C4;&#x5B9A;&#x4E86;&#x4E00;&#x4E9B;&#x9700;&#x8981;&#x9075;&#x5B88;&#x7684;&#x89C4;&#x5219;&#xFF1A;</h4>
+<ul>
+<li><p>&#x5E94;&#x7528;&#x5C42;&#x7EA7;&#x7684;&#x72B6;&#x6001;&#x5E94;&#x8BE5;&#x96C6;&#x4E2D;&#x5230;<strong>&#x5355;&#x4E2A; <code>store</code> &#x5BF9;&#x8C61;</strong>&#x4E2D;&#x3002;</p>
+</li>
+<li><p>&#x63D0;&#x4EA4;<code>mutation</code> &#x662F;&#x66F4;&#x6539;&#x72B6;&#x6001;&#x7684;<strong>&#x552F;&#x4E00;</strong>&#x65B9;&#x6CD5;&#xFF0C;&#x5E76;&#x4E14;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x662F;<strong>&#x540C;&#x6B65;</strong>&#x7684;&#x3002;</p>
+</li>
+<li><p><strong>&#x5F02;&#x6B65;</strong>&#x903B;&#x8F91;&#x90FD;&#x5E94;&#x8BE5;&#x5C01;&#x88C5;&#x5230; <code>action</code> &#x91CC;&#x9762;&#x3002;</p>
+</li>
+</ul>
+<h4 id="&#x5BF9;&#x4E8E;&#x5927;&#x578B;&#x5E94;&#x7528;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x5E0C;&#x671B;&#x628A;-vuex-&#x76F8;&#x5173;&#x4EE3;&#x7801;&#x5206;&#x5272;&#x5230;&#x6A21;&#x5757;&#x4E2D;&#x3002;&#x4E0B;&#x9762;&#x662F;store&#x7684;&#x9879;&#x76EE;&#x7ED3;&#x6784;&#x793A;&#x4F8B;&#xFF1A;">&#x5BF9;&#x4E8E;&#x5927;&#x578B;&#x5E94;&#x7528;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x5E0C;&#x671B;&#x628A; Vuex &#x76F8;&#x5173;&#x4EE3;&#x7801;&#x5206;&#x5272;&#x5230;&#x6A21;&#x5757;&#x4E2D;&#x3002;&#x4E0B;&#x9762;&#x662F;<code>store</code>&#x7684;&#x9879;&#x76EE;&#x7ED3;&#x6784;&#x793A;&#x4F8B;&#xFF1A;</h4>
+<pre><code> store
+    &#x251C;&#x2500;&#x2500; index.ts                       # &#x7EC4;&#x88C5;&#x6A21;&#x5757;&#x5E76;&#x5BFC;&#x51FA; store &#x7684;&#x5730;&#x65B9;
+    &#x251C;&#x2500;&#x2500; initailState.ts                # &#x521D;&#x59CB;&#x5316; store &#x6570;&#x636E;&#x7684;&#x5730;&#x65B9;
+    &#x251C;&#x2500;&#x2500; actions.ts                     # &#x6839;&#x7EA7;&#x522B;&#x7684; action
+    &#x251C;&#x2500;&#x2500; service.ts                     # &#x5904;&#x7406; axios &#x8BF7;&#x6C42;&#x7684;&#x5730;&#x65B9;
+    &#x251C;&#x2500;&#x2500; mutations.ts                   # &#x6839;&#x7EA7;&#x522B;&#x7684; mutation
+    &#x2514;&#x2500;&#x2500; mutationsTypes.ts              # &#x5BFC;&#x51FA; mutation &#x7684;&#x7C7B;&#x578B;&#x7684;&#x5E38;&#x91CF;
+</code></pre><h4 id="state">State</h4>
+<p>Vuex &#x4F7F;&#x7528;&#x5355;&#x4E00;&#x72B6;&#x6001;&#x6811;&#x2014;&#x2014;&#x7528;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x5C31;&#x5305;&#x542B;&#x4E86;&#x5168;&#x90E8;&#x7684;&#x5E94;&#x7528;&#x5C42;&#x7EA7;&#x72B6;&#x6001;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// initailState.ts &#x5BFC;&#x51FA;&#x4E86;`default`&#x6570;&#x636E;</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+  count: <span class="hljs-number">0</span>
+}
+</code></pre>
+<p><code>State</code> &#x7528;&#x6765;&#x5B58;&#x72B6;&#x6001;, <code>createStore</code>&#x51FD;&#x6570;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;<code>store</code>&#x5E76;&#x6700;&#x7EC8;&#x6CE8;&#x518C;&#x5230;<code>Vue</code>&#x6839;&#x5B9E;&#x4F8B;&#x4E2D;&#xFF0C;&#x4E4B;&#x540E;&#x5728;<code>Vue</code>&#x7684;&#x4EFB;&#x4F55;&#x7EC4;&#x4EF6;&#x4E2D;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; <code>this.$store.state</code>&#x6765;&#x8BBF;&#x95EE;<code>state</code>&#x4E2D;&#x7684;&#x72B6;&#x6001;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// index.ts</span>
+<span class="hljs-keyword">import</span> Vue <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vue&apos;</span>
+<span class="hljs-keyword">import</span> Vuex <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vuex&apos;</span>
+<span class="hljs-keyword">import</span> mutations <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./mutations&apos;</span>
+<span class="hljs-keyword">import</span> actions <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./actions&apos;</span>
+<span class="hljs-keyword">import</span> defaultState <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./initailState&apos;</span>  
+
+Vue.use(Vuex)
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">createStore</span> (<span class="hljs-params">initailState = {}</span>) </span>{
+   <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Vuex.Store({
+      state: {
+           ...defaultState,
+           ...initailState 
+      },
+      mutations,
+      actions
+    })
+}
+</code></pre>
+<h4 id="mutations">Mutations</h4>
+<p>&#x5728;&#x524D;&#x9762;&#x8BF4;&#x8FC7;&#xFF0C;&#x72B6;&#x6001;&#x7684;&#x6539;&#x53D8;&#x5FC5;&#x987B;&#x9075;&#x5FAA;<strong>&#x5355;&#x5411;&#x6570;&#x636E;&#x6D41;</strong>&#x601D;&#x60F3;&#xFF0C;&#x5728;&#x4EFB;&#x4F55;&#x5730;&#x65B9;&#x60F3;&#x8981;&#x6539;&#x53D8;<code>State</code>&#x4E2D;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x53EA;&#x80FD;&#x901A;&#x8FC7;&#x63D0;&#x4EA4;&#xFF08;<code>commit</code>&#xFF09;<code>Mutations</code>, &#x6765;&#x6539;&#x53D8;&#x3002;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;Mutations &#x91CC;&#x7684;&#x4FEE;&#x6539;&#x72B6;&#x6001;&#x7684;&#x64CD;&#x4F5C;&#x5FC5;&#x987B;&#x662F;<strong>&#x540C;&#x6B65;</strong>&#x7684;&#x3002;
+&#x63D0;&#x4EA4;<code>Mutations</code>&#x7684;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<pre><code class="lang-js">store.commit({
+  type: <span class="hljs-string">&apos;increment&apos;</span>,
+  amount: <span class="hljs-number">10</span>
+})
+</code></pre>
+<p><code>type</code>&#x662F;<code>Mutation</code>&#x4E8B;&#x4EF6;&#x7C7B;&#x578B;&#xFF0C;<code>amount</code>&#x662F;&#x63D0;&#x4EA4;&#x81F3;<code>Mutation</code>&#x7684;&#x5F62;&#x53C2;&#xFF0C;&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x7BA1;&#x7406;&#xFF0C;&#x4E00;&#x822C;&#x5728;<code>mutationsTypes.ts</code>&#x4E2D;&#x7EDF;&#x4E00;&#x5B9A;&#x4E49;<code>type</code>&#x5E38;&#x91CF;</p>
+<pre><code class="lang-js"><span class="hljs-comment">// mutationsTypes.ts</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> INCREMENT = <span class="hljs-string">&apos;increment&apos;</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// mutations.ts</span>
+<span class="hljs-keyword">import</span> { INCREMENT } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./mutationsTypes.ts&apos;</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+   [INCREMENT] (state, amount: number) {
+      <span class="hljs-comment">// &#x5728;&#x8FD9;&#x91CC;&#x6539;&#x53D8; state &#x7684;&#x72B6;&#x6001;</span>
+      state.count = amount
+   }
+}
+</code></pre>
+<h4 id="actions">Actions</h4>
+<p>&#x6709;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;<strong>&#x5F02;&#x6B65;&#x5730;&#x53BB;&#x66F4;&#x6539;<code>State</code>&#x7684;&#x72B6;&#x6001;</strong>&#xFF0C;&#x4F8B;&#x5982;&#x901A;&#x8FC7;<code>axios</code>&#x8BF7;&#x6C42;&#x5F97;&#x5230;&#x6570;&#x636E;&#x66F4;&#x6539;<code>state</code>&#x4E2D;&#x7684;&#x72B6;&#x6001;&#x5E76;&#x66F4;&#x65B0;&#x5230;&#x9875;&#x9762;&#x4E2D;&#xFF0C;&#x8FD9;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x9700;&#x8981;<code>actions</code>&#xFF0C;<code>actions</code>&#x672C;&#x8D28;&#x4E0A;&#x4E0E;<code>mution</code>&#x6CA1;&#x6709;&#x533A;&#x522B;&#x4E5F;&#x662F;&#x4E00;&#x4E2A;<code>function</code>, &#x53EA;&#x4E0D;&#x8FC7;<strong>actions&#x662F;&#x901A;&#x8FC7;<code>dispatch</code>&#x6765;&#x6D3E;&#x53D1;</strong>&#xFF0C;&#x5E76;&#x4E14;&#x662F;&#x4E00;&#x4E2A;<strong>&#x5F02;&#x6B65;&#x6267;&#x884C;</strong>&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x8981;&#x6700;&#x7EC8;&#x66F4;&#x6539;<code>State</code>&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x8FD8;&#x9700;&#x8981;&#x5728;<code>actions</code>&#x4E2D;&#x901A;&#x8FC7;<strong>&#x8C03;&#x7528; Mutations</strong> &#x6765;&#x6539;&#x72B6;&#x6001;&#x3002;</p>
+<p><strong>&#x4F7F;&#x7528;<code>dispatch</code>&#x6D3E;&#x53D1;<code>action</code> :</strong></p>
+<pre><code class="lang-js">store.dispatch({
+  <span class="hljs-comment">// actions &#x7C7B;&#x578B;&#x540D;&#x79F0;</span>
+  type: <span class="hljs-string">&apos;querySomeThing&apos;</span>,
+  <span class="hljs-comment">// &#x5F62;&#x53C2;</span>
+  param: <span class="hljs-string">&apos;ok&apos;</span> 
+})
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// service.ts &#x4E2D;&#x4FDD;&#x5B58;&#x4E86; axios &#x64CD;&#x4F5C;</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> getSomeThing = () =&gt; $axios.get(<span class="hljs-string">&apos;xxxx&apos;</span>)
+.then( res =&gt; res.data )
+.catch( e =&gt; <span class="hljs-built_in">console</span>.error(e) )
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// actions.ts</span>
+<span class="hljs-keyword">import</span> { getSomeThing } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./service&apos;</span>
+<span class="hljs-keyword">import</span> { INCREMENT } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./mutationsTypes.ts&apos;</span>
+
+<span class="hljs-keyword">async</span> querySomeThing ({ state, commit, dispatch }, { param }) { 
+
+  <span class="hljs-comment">// &#x903B;&#x8F91;&#x5904;&#x7406; &#x793A;&#x4F8B;</span>
+ <span class="hljs-keyword">await</span> res = getSomeThing() 
+ <span class="hljs-keyword">if</span>( res.par === param ) {
+
+  <span class="hljs-comment">// &#x5728; actions &#x4E2D;&#x901A;&#x8FC7; commit mutaion &#x6765;&#x6539;&#x53D8; State &#x4E2D;&#x7684;&#x72B6;&#x6001;</span>
+   commit(INCREMENT, res.count)
+
+ }
+ <span class="hljs-comment">// ...</span>
+ <span class="hljs-comment">// ...</span>
+
+ <span class="hljs-comment">// &#x540C;&#x6837;&#x7684;&#xFF0C;&#x5728; action &#x4E2D;&#x4E5F;&#x53EF;&#x4EE5; dispatch &#x5176;&#x4ED6;&#x7684; action</span>
+ dispatch({
+   type: <span class="hljs-string">&apos;queryAct&apos;</span>
+ })
+}
+
+<span class="hljs-keyword">async</span> queryAct () {
+  <span class="hljs-comment">// ......</span>
+}
+</code></pre>
+<h3 id="&#x603B;&#x7ED3;">&#x603B;&#x7ED3;</h3>
+<h4 id="vuex&#x7684;&#x6574;&#x4F53;&#x5355;&#x5411;&#x6570;&#x636E;&#x6D41;&#x7A0B;&#x53EF;&#x4EE5;&#x6982;&#x62EC;&#x4E3A;&#xFF1A;">Vuex&#x7684;&#x6574;&#x4F53;&#x5355;&#x5411;&#x6570;&#x636E;&#x6D41;&#x7A0B;&#x53EF;&#x4EE5;&#x6982;&#x62EC;&#x4E3A;&#xFF1A;</h4>
+<h4 id="&#x7EC4;&#x4EF6;&#x4E2D;&#x89E6;&#x53D1;-action&#xFF0C;action-&#x63D0;&#x4EA4;-mutations&#xFF0C;mutations-&#x4FEE;&#x6539;-state&#x3002;">&#x7EC4;&#x4EF6;&#x4E2D;&#x89E6;&#x53D1; Action&#xFF0C;Action &#x63D0;&#x4EA4; Mutations&#xFF0C;Mutations &#x4FEE;&#x6539; State&#x3002;</h4>
+<h4 id="&#x7EC4;&#x4EF6;&#x6839;&#x636E;-state-&#x54CD;&#x5E94;&#x5F0F;&#x6E32;&#x67D3;&#x9875;&#x9762;">&#x7EC4;&#x4EF6;&#x6839;&#x636E; State &#x54CD;&#x5E94;&#x5F0F;&#x6E32;&#x67D3;&#x9875;&#x9762;</h4>
+<p><img src="https://user-images.githubusercontent.com/63552419/95696716-d0908480-0c6e-11eb-86c7-a2ddc4c699b9.png" alt="Vuex-state"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Vue学习.html" class="navigation navigation-prev " aria-label="Previous page: Vue学习">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Vue实战技巧.html" class="navigation navigation-next " aria-label="Next page: Vue实战技巧">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Vuex学习","level":"1.3.2","depth":2,"next":{"title":"Vue实战技巧","level":"1.3.3","depth":2,"path":"doc/Vue实战技巧.md","ref":"doc/Vue实战技巧.md","articles":[]},"previous":{"title":"Vue学习","level":"1.3.1","depth":2,"path":"doc/Vue学习.md","ref":"doc/Vue学习.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"doc/Vuex学习.md","mtime":"2020-10-12T06:09:27.261Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-10-27T03:46:17.391Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
